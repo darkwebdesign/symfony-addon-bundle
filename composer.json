@@ -1,0 +1,14 @@
+{
+    "name": "darkwebdesign/symfony-addon-bundle",
+    "type": "library",
+    "description": "Symfony Add-on Bundle",
+    "keywords": ["bundle", "symfony"],
+    "homepage": "http://www.darkwebdesign.nl/",
+    "license": "MIT",
+    "authors": [
+        {"name": "Raymond Schouten"}
+    ],
+    "require": {
+        "darkwebdesign/symfony-addon-pack": "2.3.*"
+    }
+}
