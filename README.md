@@ -19,6 +19,22 @@ composer require darkwebdesign/symfony-addon-bundle
 composer install
 ```
 
+## Enabling the bundle in Symfony
+
+```php
+// app/AppKernel.php
+public function registerBundles()
+{
+    $bundles = array(
+        // ...
+        new DarkWebDesign\SymfonyAddonBundle\DarkWebDesignSymfonyAddonBundle(),
+    );
+
+    // ...
+}
+```
+
+
 ## License
 
-Symfony Add-on Pack is licensed under the MIT License - see the `LICENSE` file for details.
+Symfony Add-on Bundle is licensed under the MIT License - see the `LICENSE` file for details.
