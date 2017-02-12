@@ -5,6 +5,10 @@
            xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <services>
+        <service id="darkwebdesign.symfony_addon.formtype.birthday_type" class="DarkWebDesign\SymfonyAddon\FormType\BirthdayType">
+            <tag name="form.type" />
+        </service>
+
         <service id="darkwebdesign.symfony_addon.formtype.boolean_type" class="DarkWebDesign\SymfonyAddon\FormType\BooleanType">
             <tag name="form.type" />
         </service>
