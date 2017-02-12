@@ -7,7 +7,7 @@
 Symfony Add-on Bundle conveniently wraps the [Symfony Add-on Pack](https://github.com/darkwebdesign/symfony-addon-pack) with a Symfony Bundle that you can use
 in your Symfony applications.
 
-Learn more about it in its [documentation](https://github.com/darkwebdesign/symfony-addon-bundle/blob/2.3/doc/index.md).
+Learn more about it in its [documentation](https://github.com/darkwebdesign/symfony-addon-bundle/blob/2.4/doc/index.md).
 
 ## Installing via Composer
 
