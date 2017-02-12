@@ -4,13 +4,14 @@
 [![Total Downloads](https://poser.pugx.org/darkwebdesign/symfony-addon-bundle/downloads?format=flat)](https://packagist.org/packages/darkwebdesign/symfony-addon-bundle)
 [![License](https://poser.pugx.org/darkwebdesign/symfony-addon-bundle/license?format=flat)](https://packagist.org/packages/darkwebdesign/symfony-addon-bundle)
 
+[![Build Status](https://travis-ci.org/darkwebdesign/symfony-addon-bundle.svg?branch=2.4)](https://travis-ci.org/darkwebdesign/symfony-addon-bundle?branch=2.4)
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%205.3-blue.svg)](https://php.net/)
 [![Minimum Symfony Version](https://img.shields.io/badge/symfony-%3E%3D%202.3-green.svg)](https://symfony.com/)
 
 Symfony Add-on Bundle conveniently wraps the [Symfony Add-on Pack](https://github.com/darkwebdesign/symfony-addon-pack) with a Symfony Bundle that you can use
 in your Symfony applications.
 
-Learn more about it in its [documentation](https://github.com/darkwebdesign/symfony-addon-bundle/blob/2.4/doc/index.md).
+Learn more about it in its [documentation](https://github.com/darkwebdesign/symfony-addon-bundle/blob/2.5/doc/index.md).
 
 ## Installing via Composer
 
