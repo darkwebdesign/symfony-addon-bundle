@@ -9,6 +9,6 @@
         {"name": "Raymond Schouten"}
     ],
     "require": {
-        "darkwebdesign/symfony-addon-pack": "2.7.*"
+        "darkwebdesign/symfony-addon-pack": "2.8.*"
     }
 }
