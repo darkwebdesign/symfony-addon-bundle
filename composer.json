@@ -10,5 +10,10 @@
     ],
     "require": {
         "darkwebdesign/symfony-addon-pack": "2.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "DarkWebDesign\\SymfonyAddonBundle\\": ""
+        }
     }
 }
