@@ -9,7 +9,7 @@
         {"name": "Raymond Schouten"}
     ],
     "require": {
-        "darkwebdesign/symfony-addon-pack": "2.8.*"
+        "darkwebdesign/symfony-addon-pack": "3.0.*"
     },
     "autoload": {
         "psr-4": {
