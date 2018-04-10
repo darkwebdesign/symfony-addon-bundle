@@ -4,18 +4,15 @@
            xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
     <services>
 
-        <service id="DarkWebDesign\SymfonyAddon\FormType\BirthdayType"
-                 class="DarkWebDesign\SymfonyAddon\FormType\BirthdayType">
+        <service id="DarkWebDesign\SymfonyAddon\FormType\BirthdayType">
             <tag name="form.type" />
         </service>
 
-        <service id="DarkWebDesign\SymfonyAddon\FormType\BooleanType"
-                 class="DarkWebDesign\SymfonyAddon\FormType\BooleanType">
+        <service id="DarkWebDesign\SymfonyAddon\FormType\BooleanType">
             <tag name="form.type" />
         </service>
 
-        <service id="DarkWebDesign\SymfonyAddon\FormType\EntityType"
-                 class="DarkWebDesign\SymfonyAddon\FormType\EntityType">
+        <service id="DarkWebDesign\SymfonyAddon\FormType\EntityType">
             <argument type="service" id="doctrine" />
             <tag name="form.type" />
         </service>
