@@ -1,0 +1,10 @@
+services:
+    DarkWebDesign\SymfonyAddon\FormType\BirthdayType:
+        tags: [{ name: form.type }]
+
+    DarkWebDesign\SymfonyAddon\FormType\BooleanType:
+        tags: [{ name: form.type }]
+
+    DarkWebDesign\SymfonyAddon\FormType\EntityType:
+        arguments: ["@doctrine"]
+        tags: [{ name: form.type }]
