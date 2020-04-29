@@ -24,18 +24,12 @@ composer install
 ## Enabling the bundle in Symfony
 
 ```php
-// app/AppKernel.php
-public function registerBundles()
-{
-    $bundles = array(
-        // ...
-        new DarkWebDesign\SymfonyAddonBundle\DarkWebDesignSymfonyAddonBundle(),
-    );
-
+// config/bundles.php
+return [
     // ...
-}
+    DarkWebDesign\SymfonyAddonBundle\DarkWebDesignSymfonyAddonBundle::class => ['all' => true],
+];
 ```
-
 
 ## License
 
