@@ -9,7 +9,7 @@
         {"name": "Raymond Schouten"}
     ],
     "require": {
-        "darkwebdesign/symfony-addon-pack": "4.3.*",
+        "darkwebdesign/symfony-addon-pack": "4.4.*",
         "doctrine/doctrine-bundle": "^2.0"
     },
     "autoload": {
