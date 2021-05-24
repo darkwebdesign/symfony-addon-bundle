@@ -18,6 +18,8 @@
  * SOFTWARE.
  */
 
+declare(strict_types=1);
+
 namespace DarkWebDesign\SymfonyAddonBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
