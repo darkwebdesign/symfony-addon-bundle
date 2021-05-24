@@ -1,4 +1,0 @@
-services:
-    DarkWebDesign\SymfonyAddonFormTypes\EntityType:
-        arguments: ["@doctrine"]
-        tags: [{ name: form.type }]
