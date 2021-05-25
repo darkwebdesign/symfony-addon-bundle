@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": ">=7.2.5",
-        "darkwebdesign/symfony-addon-pack": "5.0.x-dev",
+        "darkwebdesign/symfony-addon-pack": "5.0.*",
         "doctrine/doctrine-bundle": "*",
         "doctrine/orm": "*",
         "symfony/config": "5.0.*",
