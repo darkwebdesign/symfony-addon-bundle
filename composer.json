@@ -11,7 +11,9 @@
     "require": {
         "php": ">=7.2.5",
         "darkwebdesign/symfony-addon-pack": "5.0.x-dev",
+        "doctrine/common": "^1.0",
         "doctrine/doctrine-bundle": "^2.0",
+        "doctrine/persistence": "^1.0",
         "symfony/config": "5.0.*",
         "symfony/dependency-injection": "5.0.*",
         "symfony/http-kernel": "5.0.*"
