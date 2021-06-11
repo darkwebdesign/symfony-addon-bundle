@@ -4,7 +4,7 @@
 [![Total Downloads](https://poser.pugx.org/darkwebdesign/symfony-addon-bundle/downloads?format=flat)](https://packagist.org/packages/darkwebdesign/symfony-addon-bundle)
 [![License](https://poser.pugx.org/darkwebdesign/symfony-addon-bundle/license?format=flat)](https://packagist.org/packages/darkwebdesign/symfony-addon-bundle)
 
-[![Build Status](https://travis-ci.com/darkwebdesign/symfony-addon-bundle.svg?branch=5.1)](https://travis-ci.com/darkwebdesign/symfony-addon-bundle?branch=5.1)
+[![Build Status](https://travis-ci.com/darkwebdesign/symfony-addon-bundle.svg?branch=5.1)](https://travis-ci.com/darkwebdesign/symfony-addon-bundle)
 [![PHP Version](https://img.shields.io/badge/php-7.2%2B-777BB3.svg)](https://php.net/)
 [![Symfony Version](https://img.shields.io/badge/symfony-5.1-93C74B.svg)](https://symfony.com/)
 
