@@ -10,12 +10,12 @@
     ],
     "require": {
         "php": ">=7.2.5",
-        "darkwebdesign/symfony-addon-pack": "5.3.*",
+        "darkwebdesign/symfony-addon-pack": "5.4.*",
         "doctrine/doctrine-bundle": "*",
         "doctrine/orm": "*",
-        "symfony/config": "5.3.*",
-        "symfony/dependency-injection": "5.3.*",
-        "symfony/http-kernel": "5.3.*"
+        "symfony/config": "5.4.*",
+        "symfony/dependency-injection": "5.4.*",
+        "symfony/http-kernel": "5.4.*"
     },
     "autoload": {
         "psr-4": {
