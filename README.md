@@ -11,25 +11,7 @@
 Symfony Add-on Bundle conveniently wraps the [Symfony Add-on Pack](https://github.com/darkwebdesign/symfony-addon-pack) with a Symfony Bundle that you can use
 in your Symfony applications.
 
-## Installing via Composer
-
-```bash
-composer require darkwebdesign/symfony-addon-bundle
-```
-
-```bash
-composer install
-```
-
-## Enabling the bundle in Symfony
-
-```php
-// config/bundles.php
-return [
-    // ...
-    DarkWebDesign\SymfonyAddonBundle\DarkWebDesignSymfonyAddonBundle::class => ['all' => true],
-];
-```
+Learn more about it in its [documentation](https://darkwebdesign.github.io/symfony-addon-bundle/docs/5.4).
 
 ## License
 
