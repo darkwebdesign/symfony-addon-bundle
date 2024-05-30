@@ -28,17 +28,12 @@ use Symfony\Component\DependencyInjection\Loader;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 
 /**
- * Symfony Add-on extension.
- *
  * @author Raymond Schouten
  *
  * @since 2.3
  */
 class DarkWebDesignSymfonyAddonExtension extends Extension
 {
-    /**
-     * Loads a specific configuration.
-     */
     public function load(array $configs, ContainerBuilder $container): void
     {
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__ . '/../../config'));

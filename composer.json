@@ -9,17 +9,20 @@
         {"name": "Raymond Schouten"}
     ],
     "require": {
-        "php": ">=7.2.5",
-        "darkwebdesign/symfony-addon-pack": "5.4.*",
+        "php": ">=8.0.2",
+        "darkwebdesign/symfony-addon-pack": "6.0.*",
         "doctrine/doctrine-bundle": "*",
         "doctrine/orm": "*",
-        "symfony/config": "5.4.*",
-        "symfony/dependency-injection": "5.4.*",
-        "symfony/http-kernel": "5.4.*"
+        "symfony/config": "6.0.*",
+        "symfony/dependency-injection": "6.0.*",
+        "symfony/http-kernel": "6.0.*"
     },
     "autoload": {
         "psr-4": {
             "DarkWebDesign\\SymfonyAddonBundle\\": "src/"
         }
+    },
+    "config": {
+        "sort-packages": true
     }
 }
