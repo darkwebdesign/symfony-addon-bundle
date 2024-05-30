@@ -25,8 +25,6 @@ namespace DarkWebDesign\SymfonyAddonBundle;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 /**
- * Symfony Add-on bundle.
- *
  * @author Raymond Schouten
  *
  * @since 2.3
