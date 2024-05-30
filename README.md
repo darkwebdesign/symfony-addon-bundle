@@ -5,31 +5,13 @@
 [![License](https://poser.pugx.org/darkwebdesign/symfony-addon-bundle/license?format=flat)](https://packagist.org/packages/darkwebdesign/symfony-addon-bundle)
 
 [![Build Status](https://github.com/darkwebdesign/symfony-addon-bundle/actions/workflows/build.yaml/badge.svg?branch=6.0)](https://github.com/darkwebdesign/symfony-addon-bundle/actions/workflows/build.yaml)
-[![PHP Version](https://img.shields.io/badge/php-7.2%2B-777BB3.svg)](https://php.net/)
+[![PHP Version](https://img.shields.io/badge/php-8.0%2B-777BB3.svg)](https://php.net/)
 [![Symfony Version](https://img.shields.io/badge/symfony-6.0-93C74B.svg)](https://symfony.com/)
 
 Symfony Add-on Bundle conveniently wraps the [Symfony Add-on Pack](https://github.com/darkwebdesign/symfony-addon-pack) with a Symfony Bundle that you can use
 in your Symfony applications.
 
-## Installing via Composer
-
-```bash
-composer require darkwebdesign/symfony-addon-bundle
-```
-
-```bash
-composer install
-```
-
-## Enabling the bundle in Symfony
-
-```php
-// config/bundles.php
-return [
-    // ...
-    DarkWebDesign\SymfonyAddonBundle\DarkWebDesignSymfonyAddonBundle::class => ['all' => true],
-];
-```
+Learn more about it in its [documentation](https://darkwebdesign.github.io/symfony-addon-bundle/docs/6.0).
 
 ## License
 
