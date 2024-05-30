@@ -9,7 +9,7 @@
         {"name": "Raymond Schouten"}
     ],
     "require": {
-        "php": ">=8.0.2",
+        "php": "^8.0",
         "darkwebdesign/symfony-addon-pack": "6.0.*",
         "doctrine/doctrine-bundle": "*",
         "doctrine/orm": "*",
