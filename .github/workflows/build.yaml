@@ -12,6 +12,27 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  rector:
+    name: 'Rector'
+    runs-on: 'ubuntu-24.04'
+    steps:
+      - name: 'Checkout'
+        uses: 'actions/checkout@v4'
+      - name: 'Setup PHP'
+        uses: 'shivammathur/setup-php@v2'
+        with:
+          php-version: '8.0'
+      - name: 'Fix dependencies'
+        uses: 'php-actions/composer@v6'
+        with:
+          command: 'require'
+          args: 'darkwebdesign/symfony-addon-pack:6.0.x-dev --no-install'
+          php_version: '8.0'
+      - name: 'Composer Install'
+        uses: 'ramsey/composer-install@v3'
+      - name: 'Rector'
+        run: 'vendor/bin/rector process --dry-run --no-progress-bar --ansi'
+
   composer:
     name: 'Composer'
     runs-on: 'ubuntu-24.04'
@@ -30,5 +51,11 @@ jobs:
         uses: 'shivammathur/setup-php@v2'
         with:
           php-version: "${{ matrix.php }}"
+      - name: 'Fix dependencies'
+        uses: 'php-actions/composer@v6'
+        with:
+          command: 'require'
+          args: 'darkwebdesign/symfony-addon-pack:6.0.x-dev --no-install'
+          php_version: "${{ matrix.php }}"
       - name: 'Composer Install'
         uses: 'ramsey/composer-install@v3'
