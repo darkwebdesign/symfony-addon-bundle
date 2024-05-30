@@ -1,6 +1,6 @@
 <?php
 /**
- * Copyright (c) 2018 DarkWeb Design
+ * Copyright (c) 2018 DarkWeb Design.
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -24,24 +24,19 @@ namespace DarkWebDesign\SymfonyAddonBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
-use Symfony\Component\DependencyInjection\Loader;
+use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 
 /**
- * Symfony Add-on extension.
- *
  * @author Raymond Schouten
  *
  * @since 2.3
  */
 class DarkWebDesignSymfonyAddonExtension extends Extension
 {
-    /**
-     * Loads a specific configuration.
-     */
     public function load(array $configs, ContainerBuilder $container): void
     {
-        $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__ . '/../../config'));
+        $loader = new YamlFileLoader($container, new FileLocator(__DIR__ . '/../../config'));
         $loader->load('services.yaml');
     }
 }

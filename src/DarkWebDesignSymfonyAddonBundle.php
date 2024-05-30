@@ -1,6 +1,6 @@
 <?php
 /**
- * Copyright (c) 2017 DarkWeb Design
+ * Copyright (c) 2017 DarkWeb Design.
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -25,8 +25,6 @@ namespace DarkWebDesign\SymfonyAddonBundle;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 /**
- * Symfony Add-on bundle.
- *
  * @author Raymond Schouten
  *
  * @since 2.3
