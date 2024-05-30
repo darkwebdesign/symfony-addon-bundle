@@ -26,7 +26,7 @@ jobs:
         uses: 'php-actions/composer@v6'
         with:
           command: 'require'
-          args: 'darkwebdesign/symfony-addon-pack:6.1.x-dev --no-install'
+          args: 'darkwebdesign/symfony-addon-pack:6.2.x-dev --no-install'
           php_version: '8.1'
       - name: 'Composer Install'
         uses: 'ramsey/composer-install@v3'
@@ -47,7 +47,7 @@ jobs:
         uses: 'php-actions/composer@v6'
         with:
           command: 'require'
-          args: 'darkwebdesign/symfony-addon-pack:6.1.x-dev --no-install'
+          args: 'darkwebdesign/symfony-addon-pack:6.2.x-dev --no-install'
           php_version: '8.1'
       - name: 'Composer Install'
         uses: 'ramsey/composer-install@v3'
@@ -68,7 +68,7 @@ jobs:
         uses: 'php-actions/composer@v6'
         with:
           command: 'require'
-          args: 'darkwebdesign/symfony-addon-pack:6.1.x-dev --no-install'
+          args: 'darkwebdesign/symfony-addon-pack:6.2.x-dev --no-install'
           php_version: '8.1'
       - name: 'Composer Install'
         uses: 'ramsey/composer-install@v3'
@@ -96,7 +96,7 @@ jobs:
         uses: 'php-actions/composer@v6'
         with:
           command: 'require'
-          args: 'darkwebdesign/symfony-addon-pack:6.1.x-dev --no-install'
+          args: 'darkwebdesign/symfony-addon-pack:6.2.x-dev --no-install'
           php_version: "${{ matrix.php }}"
       - name: 'Composer Install'
         uses: 'ramsey/composer-install@v3'
