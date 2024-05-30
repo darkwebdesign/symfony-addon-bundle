@@ -22,8 +22,13 @@ jobs:
         uses: 'shivammathur/setup-php@v2'
         with:
           php-version: '8.0'
+      - name: 'Fix dependencies'
+        uses: 'php-actions/composer@v6'
+        with:
+          command: 'require'
+          args: 'darkwebdesign/symfony-addon-pack:6.0.x-dev --no-install'
       - name: 'Composer Install'
-        uses: 'ramsey/composer-install@v3'
+        uses: 'php-actions/composer@v6'
       - name: 'Rector'
         run: 'vendor/bin/rector process --dry-run --no-progress-bar --ansi'
 
@@ -45,5 +50,10 @@ jobs:
         uses: 'shivammathur/setup-php@v2'
         with:
           php-version: "${{ matrix.php }}"
+      - name: 'Fix dependencies'
+        uses: 'php-actions/composer@v6'
+        with:
+          command: 'require'
+          args: 'darkwebdesign/symfony-addon-pack:6.0.x-dev --no-install'
       - name: 'Composer Install'
-        uses: 'ramsey/composer-install@v3'
+        uses: 'php-actions/composer@v6'
