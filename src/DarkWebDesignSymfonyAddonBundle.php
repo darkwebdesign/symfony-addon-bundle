@@ -22,17 +22,13 @@ declare(strict_types=1);
 
 namespace DarkWebDesign\SymfonyAddonBundle;
 
-use Symfony\Component\HttpKernel\Bundle\Bundle;
+use Symfony\Component\HttpKernel\Bundle\AbstractBundle;
 
 /**
  * @author Raymond Schouten
  *
  * @since 2.3
  */
-class DarkWebDesignSymfonyAddonBundle extends Bundle
+class DarkWebDesignSymfonyAddonBundle extends AbstractBundle
 {
-    public function getPath(): string
-    {
-        return dirname(__DIR__);
-    }
 }
