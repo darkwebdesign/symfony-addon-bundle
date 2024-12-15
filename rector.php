@@ -10,7 +10,7 @@ return RectorConfig::configure()
         __DIR__ . '/src',
     ])
     ->withSets([
-        LevelSetList::UP_TO_PHP_82,
+        LevelSetList::UP_TO_PHP_83,
     ])
     ->withImportNames(
         importShortClasses: false,
