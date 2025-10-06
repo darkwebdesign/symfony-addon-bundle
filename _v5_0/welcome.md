@@ -3,7 +3,7 @@ layout: default
 title: Welcome
 nav_order: 1
 redirect_from:
-  - /docs/5.1/
+  - /docs/5.0/
 ---
 
 # Symfony Add-on Bundle
