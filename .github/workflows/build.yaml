@@ -48,6 +48,16 @@ jobs:
       - uses: 'ramsey/composer-install@v3'
       - run: 'vendor/bin/rector process --dry-run --no-progress-bar --ansi'
 
+  composer-validate:
+    name: 'Run Composer Validate'
+    runs-on: 'ubuntu-24.04'
+    steps:
+      - uses: 'actions/checkout@v4'
+      - uses: 'shivammathur/setup-php@v2'
+        with:
+          php-version: '8.2'
+      - run: 'composer validate'
+
   composer-install:
     name: 'Run Composer Install'
     runs-on: 'ubuntu-24.04'
