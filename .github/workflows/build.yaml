@@ -5,6 +5,8 @@ on:
     branches:
       - 'main'
       - '[0-9].[0-9]'
+    tags:
+      - '**'
   pull_request:
 
 concurrency:
@@ -20,7 +22,7 @@ jobs:
       - uses: 'shivammathur/setup-php@v2'
         with:
           php-version: '8.2'
-      - run: 'composer require --no-install darkwebdesign/symfony-addon-pack:7.3.x-dev'
+      - run: 'composer require --no-install darkwebdesign/symfony-addon-pack:7.4.x-dev'
       - uses: 'ramsey/composer-install@v3'
       - run: 'vendor/bin/php-cs-fixer fix --diff --dry-run --show-progress=none --ansi'
 
@@ -32,7 +34,7 @@ jobs:
       - uses: 'shivammathur/setup-php@v2'
         with:
           php-version: '8.2'
-      - run: 'composer require --no-install darkwebdesign/symfony-addon-pack:7.3.x-dev'
+      - run: 'composer require --no-install darkwebdesign/symfony-addon-pack:7.4.x-dev'
       - uses: 'ramsey/composer-install@v3'
       - run: 'vendor/bin/phpstan analyze --no-progress --ansi'
 
@@ -44,7 +46,7 @@ jobs:
       - uses: 'shivammathur/setup-php@v2'
         with:
           php-version: '8.2'
-      - run: 'composer require --no-install darkwebdesign/symfony-addon-pack:7.3.x-dev'
+      - run: 'composer require --no-install darkwebdesign/symfony-addon-pack:7.4.x-dev'
       - uses: 'ramsey/composer-install@v3'
       - run: 'vendor/bin/rector process --dry-run --no-progress-bar --ansi'
 
@@ -56,7 +58,7 @@ jobs:
       - uses: 'shivammathur/setup-php@v2'
         with:
           php-version: '8.2'
-      - run: 'composer require --no-install darkwebdesign/symfony-addon-pack:7.3.x-dev'
+      - run: 'composer require --no-install darkwebdesign/symfony-addon-pack:7.4.x-dev'
       - uses: 'ramsey/composer-install@v3'
       - run: 'vendor/bin/composer-require-checker --ansi'
 
@@ -82,5 +84,5 @@ jobs:
       - uses: 'shivammathur/setup-php@v2'
         with:
           php-version: "${{ matrix.php }}"
-      - run: 'composer require --no-install darkwebdesign/symfony-addon-pack:7.3.x-dev'
+      - run: 'composer require --no-install darkwebdesign/symfony-addon-pack:7.4.x-dev'
       - uses: 'ramsey/composer-install@v3'
