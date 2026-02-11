@@ -10,11 +10,11 @@
     ],
     "require": {
         "php": "^8.2",
-        "darkwebdesign/symfony-addon-pack": "7.3.*-dev",
+        "darkwebdesign/symfony-addon-pack": "7.4.*-dev",
         "doctrine/doctrine-bundle": "*",
-        "symfony/config": "7.3.*",
-        "symfony/dependency-injection": "7.3.*",
-        "symfony/http-kernel": "7.3.*"
+        "symfony/config": "7.4.*",
+        "symfony/dependency-injection": "7.4.*",
+        "symfony/http-kernel": "7.4.*"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.93",
