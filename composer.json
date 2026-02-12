@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": "^8.2",
-        "darkwebdesign/symfony-addon-pack": "7.4.*-dev",
+        "darkwebdesign/symfony-addon-pack": "7.4.*",
         "doctrine/doctrine-bundle": "*",
         "symfony/config": "7.4.*",
         "symfony/dependency-injection": "7.4.*",
